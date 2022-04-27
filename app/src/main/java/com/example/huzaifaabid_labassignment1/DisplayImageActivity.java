@@ -24,11 +24,13 @@ public class DisplayImageActivity extends AppCompatActivity {
         ImageView setImage=findViewById(R.id.imageView);
 
         showNumber.setText(msg);
+        setImage.setImageResource(R.drawable.fastfood);
 
-        
+
+
+
 //        if(msg == "1"){
 //            setImage.setImageResource(R.drawable.fastfood);
-//            showNumber.setText(msg);
 //        } else if(msg == "2"){
 //            setImage.setImageResource(R.drawable.buildings);
 //            showNumber.setText(msg);

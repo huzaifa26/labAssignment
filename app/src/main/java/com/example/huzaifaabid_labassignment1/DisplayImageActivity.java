@@ -23,21 +23,24 @@ public class DisplayImageActivity extends AppCompatActivity {
         TextView showNumber=findViewById(R.id.showNumber);
         ImageView setImage=findViewById(R.id.imageView);
 
-        if(msg == "1"){
-            setImage.setImageResource(R.drawable.fastfood);
-            showNumber.setText(msg);
-        } else if(msg == "2"){
-            setImage.setImageResource(R.drawable.buildings);
-            showNumber.setText(msg);
-        } else if(msg == "3"){
-            setImage.setImageResource(R.drawable.technology);
-            showNumber.setText(msg);
-        } else if(msg == "4"){
-            setImage.setImageResource(R.drawable.flowers);
-            showNumber.setText(msg);
-        } else if(msg == "5"){
-            setImage.setImageResource(R.drawable.fruits);
-            showNumber.setText(msg);
-        } else showNumber.setText("No Image Found");
+        showNumber.setText(msg);
+
+        
+//        if(msg == "1"){
+//            setImage.setImageResource(R.drawable.fastfood);
+//            showNumber.setText(msg);
+//        } else if(msg == "2"){
+//            setImage.setImageResource(R.drawable.buildings);
+//            showNumber.setText(msg);
+//        } else if(msg == "3"){
+//            setImage.setImageResource(R.drawable.technology);
+//            showNumber.setText(msg);
+//        } else if(msg == "4"){
+//            setImage.setImageResource(R.drawable.flowers);
+//            showNumber.setText(msg);
+//        } else if(msg == "5"){
+//            setImage.setImageResource(R.drawable.fruits);
+//            showNumber.setText(msg);
+//        } else showNumber.setText("No Image Found");
     }
 }
